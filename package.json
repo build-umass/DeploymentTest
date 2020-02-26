@@ -1,0 +1,23 @@
+{
+  "name": "deploymenttest",
+  "version": "1.0.0",
+  "description": "deployment test app for Build UMass",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/build-umass/DeploymentTest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/build-umass/DeploymentTest/issues"
+  },
+  "homepage": "https://github.com/build-umass/DeploymentTest#readme"
+}
