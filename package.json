@@ -9,7 +9,8 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "start": "node app.js",
+    "deploy": "docker build -t deployment-test . && docker tag deployment-test gcr.io/deploymenttest-269402/deployment-test && docker push gcr.io/deploymenttest-269402/deployment-test"
   },
   "repository": {
     "type": "git",
